@@ -19,6 +19,12 @@ config/name="Untitled Cat Game"
 run/main_scene="res://Levels/Lvl0.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=2048
+window/size/height=1200
+window/dpi/allow_hidpi=true
+
 [rendering]
 
 quality/driver/driver_name="GLES2"

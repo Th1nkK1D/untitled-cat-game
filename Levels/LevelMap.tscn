@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Levels/LevelMap.gd" type="Script" id=1]
+[ext_resource path="res://Objects/MapTiles.meshlib" type="MeshLibrary" id=2]
+
+[node name="LevelMap" type="GridMap"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1 )
+mesh_library = ExtResource( 2 )
+cell_center_y = false
+data = {
+"cells": PoolIntArray( 0, 0, 0, 0, 1, 0, 1, 1, 1, 65535, 1, 0, 65535, 2, 655362 )
+}
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_clip_": 0
+}

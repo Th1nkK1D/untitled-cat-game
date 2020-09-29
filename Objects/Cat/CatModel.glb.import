@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/cat_rigged_animation_run.glb-863a3bdd7d799464bb2bc096339eaf0a.scn"
+path="res://.import/CatModel.glb-7a1dff5fd2de111fb416546de440fe8d.scn"
 
 [deps]
 
-source_file="res://Objects/cat_rigged_animation_run.glb"
-dest_files=[ "res://.import/cat_rigged_animation_run.glb-863a3bdd7d799464bb2bc096339eaf0a.scn" ]
+source_file="res://Objects/Cat/CatModel.glb"
+dest_files=[ "res://.import/CatModel.glb-7a1dff5fd2de111fb416546de440fe8d.scn" ]
 
 [params]
 

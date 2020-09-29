@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Objects/CatByOras.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Objects/Cat.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Actors/Player.gd" type="Script" id=2]
 
 [sub_resource type="CapsuleShape" id=1]
@@ -11,7 +11,8 @@ height = 0.340492
 script = ExtResource( 2 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 0.0269573, 0.107, 0 )
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 0.0269573, 0.107, 0 )
 shape = SubResource( 1 )
 
-[node name="CatByOras" parent="." instance=ExtResource( 1 )]
+[node name="Cat" parent="." instance=ExtResource( 1 )]
+transform = Transform( -4.88762e-07, 0, -3, 0, 3, 0, 3, 0, -4.88762e-07, 0, 0, 0 )

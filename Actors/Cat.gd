@@ -44,3 +44,9 @@ func turn_left():
 	
 func turn_right():
 	player_direction = posmod(player_direction - 1, 4)
+
+func clone():
+	var new_cat = duplicate()
+	new_cat.player_position = player_position
+	new_cat.player_direction = player_direction
+	return new_cat

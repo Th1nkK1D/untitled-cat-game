@@ -22,6 +22,7 @@ func _input(event):
 	if event.is_action_pressed("ui_up"):
 		move_forward()
 		is_transforming = true
+		$Cat/AnimationPlayer.play("Run")
 	elif event.is_action_pressed("ui_right"):
 		turn_right()
 		is_transforming = true
@@ -38,6 +39,7 @@ func _process(delta):
 		if translation.is_equal_approx(target_position):
 			translation = target_position
 			is_transforming = false
+			$Cat/AnimationPlayer.play("Idle")
 			emit_signal("arrived", player_position)
 		
 	if !rotation.is_equal_approx(target_rotation):

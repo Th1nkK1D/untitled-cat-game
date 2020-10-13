@@ -13,7 +13,7 @@ projection = 1
 size = 15.0
 
 [node name="ExitDoor" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.346141, -1 )
 
 [node name="Tile" parent="." instance=ExtResource( 1 )]
 
